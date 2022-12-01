@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Educational Attainment</title>
     <style>
         body {
             margin: 0;
@@ -28,10 +28,17 @@
             padding: 0.75rem;
         }
         .content {
+            display: flex;
             padding-top: 12px;
             padding-bottom: 12px;
             padding-left: 8px;
             padding-right: 8px;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
         }
         .profile {
             display: flex;
@@ -47,7 +54,7 @@
             flex-direction: column;
             padding-left: 1rem;
         }
-        .name {
+        .bold {
             font-weight: bold;
         }
         .texts {
@@ -67,14 +74,36 @@
         <a href="Photo Gallery.html">Photo gallery</a>
     </div>
 
-    <!-- Profile -->
-    <div class="content">
-        <div class="profile">
-            <img src="profile pic.jpg" alt="Profile picture" class="profile-pic">
-            <div class="details">
-                <span class="name texts">Vincent G. Manugbod</span>
-                <span class="texts">CC1100 - Introduction to Computing</span>
-                <span class="texts">BSIT - SD</span>
+    <!-- body -->
+    <div class="container">
+        <div>
+            <div class="content">
+                <div class="profile">
+                    <img src="misery.jpg" alt="Profile picture" class="profile-pic">
+                    <div class="details">
+                        <span class="bold texts">Joy in Learning School </span>
+                        <span class="texts">Mayondon Los Banos, Laguna</span>
+                        <span class="texts">2018</span>
+                    </div>
+                </div>
+                <br>
+                <div class="profile">
+                    <img src="misery.jpg" alt="Profile picture" class="profile-pic">
+                    <div class="details">
+                        <span class="bold texts">Los Banos National High School</span>
+                        <span class="texts">Batong Malake, Los Banos, Laguna</span>
+                        <span class="texts">2016</span>
+                    </div>
+                </div>
+                <br>
+                <div class="profile">
+                    <img src="misery.jpg" alt="Profile picture" class="profile-pic">
+                    <div class="details">
+                        <span class="bold texts">Mayondon Elementary School</span>
+                        <span class="texts">Mayondon, Los Banos, Laguna</span>
+                        <span class="texts">2012</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
