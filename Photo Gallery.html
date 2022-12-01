@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Gallery</title>
     <style>
         body {
             margin: 0;
@@ -12,9 +12,6 @@
         }
         .bg-theme {
             background-color: rgba(54, 54, 221, 0.685);
-        }
-        .text-theme {
-            color: rgba(54, 54, 221, 0.685);
         }
         .head {
             background-color: rgba(54, 54, 221, 0.685);
@@ -27,37 +24,27 @@
             color: white;
             padding: 0.75rem;
         }
-        .content {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            padding-left: 8px;
-            padding-right: 8px;
-        }
-        .profile {
+        .gallery {
             display: flex;
+            justify-content: center;
             align-items: center;
+            padding-top: 1rem;
+            flex-wrap: wrap;
         }
-        .profile-pic {
-            border-radius: 9999%;
-            width: 6rem;
-            height: 6rem;
+        .img-container {
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            padding: 0.75rem;
         }
-        .details {
-            display: flex;
-            flex-direction: column;
-            padding-left: 1rem;
-        }
-        .name {
-            font-weight: bold;
-        }
-        .texts {
-            padding-top: 0.25rem;
-            padding-bottom: 0.25rem;
+        .img-preview {
+            height: 100%;
+            object-fit: fill;
         }
     </style>
 </head>
 <body>
-    <!-- header -->
+    <!-- Header -->
     <div class="head">
         <a href="Homepage.html">Home</a>
         <a href="About.html">About me</a>
@@ -67,15 +54,54 @@
         <a href="Photo Gallery.html">Photo gallery</a>
     </div>
 
-    <!-- Profile -->
-    <div class="content">
-        <div class="profile">
-            <img src="misery.jpg" alt="Profile picture" class="profile-pic">
-            <div class="details">
-                <span class="name texts">Vincent G. Masugbod</span>
-                <span class="texts">CC1100 - Introduction to Computing</span>
-                <span class="texts">Program - Block</span>
-            </div>
+    <!-- Gallery -->
+    <div class="gallery">
+        <div class="img-container">
+            <img src="pic1.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic2.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic3.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic4.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic5.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic6.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic7.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic8.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic9.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic10.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic11.jpg" class="img-preview" alt="">
+        </div>
+
+        <div class="img-container">
+            <img src="pic12.jpg" class="img-preview" alt="">
         </div>
     </div>
 </body>
